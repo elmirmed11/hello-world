@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(30, 54%, 90%);
     font-size: 16px;
     margin: 0;
 }
 
 #main {
-    width: 60%;
+    width: 50%;
     margin: 120px auto;
     padding: 50px;
     background-color: hsl(0, 0%, 100%);
@@ -22,22 +22,60 @@ body {
 #img {
     width: 100%;
     border-radius: 12px;
-    height: 400px;
+    height: 350px;
     object-fit: cover;
 }
 
 h1 {
     font-family: 'Young Serif', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    margin: 40px 0 0 0;
 }
 
 #small {
     width: 100%;
+    margin-block: 15px;
     background-color: hsl(330, 100%, 98%);
     border-radius: 12px;
+    padding: 25px;
+    height: 200px;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
 }
 
 .header {
     font-family: 'Young Serif', sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+h4, p, li, tr {
+    font-family: outfit, sans-serif;
+    margin-bottom: 20px;
+}
+
+b {
+    color: hsl(30, 10%, 34%);
+}
+
+hr {
+    border: none;
+    background-color: hsl(30, 18%, 87%);
+    height: 2px;
+    margin-top: 35px;
+}
+
+table {
+    width: 100%;
+    height: 200px; 
+}
+
+h4 {
+    font-size: 20px;
+    margin: 35px 0 5px 15px;
     color: hsl(332, 51%, 32%);
 }
+
