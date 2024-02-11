@@ -91,12 +91,32 @@ a {
     color: hsl(332, 51%, 32%);
 }
 
-li {text-indent: 15px;}
+ul li::before {
+    content: "•";
+    color: hsl(332, 51%, 32%);
+    font-size: 25px;
+}
 
-ol, ul {margin-left: -15px;}
+ol, ul {
+    margin-left: -15px;
+    list-style: none;
+}
 
 .attribution {
     text-align: center;
     padding-top: 50px;
     font-size: 20px;
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+    #main {
+        width: 100vw;
+        border-radius: 0;
+        margin: 0;
+    }
+    #img {
+        border-radius: 0;
+        width: 100vw;
+        margin: -50px -50px 20px;
+    }
 }
