@@ -1,0 +1,43 @@
+*, *::after ,*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 18%, 87%);
+    font-size: 16px;
+    margin: 0;
+}
+
+#main {
+    width: 60%;
+    margin: 120px auto;
+    padding: 50px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#img {
+    width: 100%;
+    border-radius: 12px;
+    height: 400px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 40px;
+}
+
+#small {
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 12px;
+}
+
+.header {
+    font-family: 'Young Serif', sans-serif;
+    color: hsl(332, 51%, 32%);
+}
