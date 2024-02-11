@@ -55,9 +55,7 @@ h1 {
     font-weight: 400;
 }
 
-p, li, tr {    
-    margin-bottom: 20px;
-}
+p, li, table {margin-bottom: 20px;}
 
 b {color: hsl(30, 10%, 34%);}
 
