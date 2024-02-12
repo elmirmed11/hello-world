@@ -71,7 +71,7 @@ table {
     border-collapse: collapse;
 }
 
-h4 {
+h2 {
     font-size: 20px;
     margin: 35px 0 5px;
     color: hsl(332, 51%, 32%);
@@ -127,7 +127,7 @@ ol li::before {
     font-size: 20px;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     #main {
         width: 100vw;
         border-radius: 0;
