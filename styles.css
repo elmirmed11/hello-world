@@ -55,7 +55,7 @@ h1 {
     font-weight: 400;
 }
 
-p, li, table {margin-bottom: 20px;}
+p, li {margin-bottom: 20px;}
 
 b {color: hsl(30, 10%, 34%);}
 
@@ -69,6 +69,7 @@ hr {
 table {
     width: 100%;
     height: 200px; 
+    border-collapse: collapse;
 }
 
 h4 {
@@ -80,8 +81,12 @@ h4 {
 td {padding-left: 30px;}
 
 th {
-    padding-right: 140px;
+    padding-right: 130px;
     color: hsl(332, 51%, 32%);
+}
+
+.a, .b, .c {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
 }
 
 a {
@@ -93,10 +98,9 @@ ul li::before {
     content: "•";
     color: hsl(332, 51%, 32%);
     font-weight: bold;
-    text-indent: -8px;
     display: inline-block; 
-    width: 1em;
-    margin-left: -0.8em;
+    width: 1.8em;
+    margin-left: -1.2em;
 }
 
 ol, ul {
@@ -124,19 +128,21 @@ ol li::before {
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     #main {
         width: 100vw;
         border-radius: 0;
         margin: 0;
+        padding: 30px;
     }
     #img {
         border-radius: 0;
         width: 100vw;
-        margin: -50px -50px 20px;
+        display: block;
+        margin: -30px -30px 20px;
     }
     h1 {font-size: 30px;}
     .attribution {font-size: 18px;}
     .header {font-size: 22px;}
-    th {padding-right: 15px;}
+    th {padding-right: 5px;}
 }
