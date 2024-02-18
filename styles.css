@@ -121,13 +121,7 @@ ol li::before {
     font-weight: bold;
 }
 
-.attribution {
-    text-align: center;
-    padding-top: 50px;
-    font-size: 20px;
-}
-
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
     #main {
         width: 100vw;
         border-radius: 0;
@@ -142,7 +136,6 @@ ol li::before {
         margin: -40px -30px -50px;
     }
     h1 {font-size: 30px;}
-    .attribution {font-size: 18px;}
     .header {font-size: 22px;}
     th {padding-right: 5px;}
 }
