@@ -44,32 +44,31 @@ my understanding of the table element did improve.
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 ```
 ```css
-ol, ul {
-    margin-left: -15px;
-    list-style: none;
-    counter-reset: li;
-}
-
 ul li::before {
     content: "•";
     color: hsl(332, 51%, 32%);
     font-weight: bold;
     display: inline-block; 
     width: 1.8em;
-    margin-left: -1.2em;
+    margin-left: -1.5em;
+    text-indent: 0.3em;
+}
+
+ol, ul {
+    margin-left: -15px;
+    list-style: none;
+    counter-reset: li;
 }
 
 ol li::before {
-    content: "." counter(li);
+    content: counter(li) ".";
     counter-increment: li; 
     color: hsl(332, 51%, 32%);
     display: inline-block; 
-    width: 1em; 
+    width: 1.8em; 
     margin-left: -1.5em;
-    margin-right: 0.5em; 
-    text-align: right; 
-    direction: rtl;
     font-weight: bold;
+    text-indent: 0.3em;
 }
 ```
 
