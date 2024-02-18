@@ -14,7 +14,7 @@ body {
 #main {
     width: 750px;
     margin: 120px auto;
-    padding: 50px;
+    padding: 40px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     display: flex;
@@ -52,10 +52,12 @@ h2 {
     font-family: 'Young Serif', sans-serif;
     color: hsl(14, 45%, 36%);
     font-weight: 400;
-    font-size: 25px;
+    font-size: 27px;
 }
 
-p, li {margin-bottom: 20px;}
+li {
+    margin-bottom: 20px;
+}
 
 b {color: hsl(30, 10%, 34%);}
 
@@ -68,7 +70,7 @@ hr {
 
 table {
     width: 100%;
-    height: 200px; 
+    height: 180px; 
     border-collapse: collapse;
 }
 
@@ -100,7 +102,7 @@ ul li::before {
     color: hsl(332, 51%, 32%);
     font-weight: bold;
     display: inline-block; 
-    width: 1.8em;
+    width: 2.2em;
     margin-left: -1.5em;
     text-indent: 0.3em;
 }
@@ -116,7 +118,7 @@ ol li::before {
     counter-increment: li; 
     color: hsl(332, 51%, 32%);
     display: inline-block; 
-    width: 1.8em; 
+    width: 2.2em; 
     margin-left: -1.5em;
     font-weight: bold;
     text-indent: 0.3em;
