@@ -48,10 +48,9 @@ ul li::before {
     content: "•";
     color: hsl(332, 51%, 32%);
     font-weight: bold;
-    display: inline-block; 
-    width: 1.8em;
-    margin-left: -1.5em;
-    text-indent: 0.3em;
+    display: inline-block;
+    width: 2em; 
+    margin-left: -2em;
 }
 
 ol, ul {
@@ -64,11 +63,10 @@ ol li::before {
     content: counter(li) ".";
     counter-increment: li; 
     color: hsl(332, 51%, 32%);
-    display: inline-block; 
-    width: 1.8em; 
-    margin-left: -1.5em;
+    display: inline-block;
+    width: 2em;  
+    margin-left: -2em;
     font-weight: bold;
-    text-indent: 0.3em;
 }
 ```
 

@@ -56,7 +56,7 @@ h2 {
 }
 
 li {
-    margin-bottom: 20px;
+    margin: 0 0 20px 13px;
 }
 
 b {color: hsl(30, 10%, 34%);}
@@ -101,10 +101,9 @@ ul li::before {
     content: "•";
     color: hsl(332, 51%, 32%);
     font-weight: bold;
-    display: inline-block; 
-    width: 2.2em;
-    margin-left: -1.5em;
-    text-indent: 0.3em;
+    display: inline-block;
+    width: 2em; 
+    margin-left: -2em;
 }
 
 ol, ul {
@@ -117,11 +116,10 @@ ol li::before {
     content: counter(li) ".";
     counter-increment: li; 
     color: hsl(332, 51%, 32%);
-    display: inline-block; 
-    width: 2.2em; 
-    margin-left: -1.5em;
+    display: inline-block;
+    width: 2em;  
+    margin-left: -2em;
     font-weight: bold;
-    text-indent: 0.3em;
 }
 
 @media (max-width: 500px) {
