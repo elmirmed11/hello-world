@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/css-counters-and-pseudoelements-SpoOTBxFHy)
-- Live Site URL: [Add live site URL here](https://recipe-page-main11.netlify.app)
+- Solution URL: [(https://www.frontendmentor.io/solutions/css-counters-and-pseudoelements-SpoOTBxFHy)]
+- Live Site URL: [(https://recipe-page-main11.netlify.app)]
 
 ## My process
 
